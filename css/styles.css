@@ -66,6 +66,48 @@ header nav {
 
 /* !header */
 
+/*Main*/
+
+.container-main-top{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-main-top div{
+    background-color: #fff;
+    width: 25em;
+    height: 13em;
+}
+
+.container-main-bottom{
+    height: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-main-bottom div{
+    text-align: left;
+    background-color: rgb(55, 55, 55);
+    color: rgb(238, 238, 238);
+    padding-left: 0.5em;  
+    padding-top: 0.5em;
+    height: 1.5em;
+}
+
+.container-main-bottom article{
+    border: rgb(55, 55, 55) 0.05em solid;
+    height: 8em;
+    width: 11em;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+/*Main*/
+
 /* footer */
 footer.flex-footer {
     align-items: center;
