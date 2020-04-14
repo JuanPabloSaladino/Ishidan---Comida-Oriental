@@ -1,81 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
-    background-color: rgb(34, 32, 32);
-    color: gainsboro;
-
-    height: 10em;
-    border-top: 0.25em solid  rgb(255, 127, 23);
-}
-
-main{
-    background-color: #fff;
-
-    height: 40em;
-}
-
-footer{
-    background-color: #fff;
-    color: rgb(128, 126, 126);
-
-    height: 5em;
-    border-top: 0.1em solid  rgb(255, 127, 23);
-    font-size: 1.5em;
-}
-
-h1{
+h1 {
     font-size: 5em;
 }
 
-h3{
-    font-size: 1.5em;
+.orange-txt {
+    color: #ff7f17;
 }
 
-.container-header{
+/* header */
+header {
+    background-color: #1e1e1e;
+    border-top: #ff6600 5px solid;
+    color: #bfbdbd;
+}
+
+header.header-flex {
     display: flex;
     flex-direction: column;
-    margin-left: 3em;
 }
 
-.container-h3{
-    display: flex;
-    flex-direction: column;
+header .container-header, nav {
+    padding: 0 3rem;
 }
 
-.container-footer{
+header .container-header {
+    margin-bottom: 1rem;
+}
+
+header nav {
+    background-color: #ff6600;
+}
+
+    /* nav */
+    nav a {
+        color: white;
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0.4em 1.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    nav ul a.selected {
+        background: linear-gradient(to bottom, rgba(87,88,87,1) 0%, rgba(0,0,0,1) 100%);
+    }
+
+    nav a:hover {
+        background-color: gray;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+
+
+    /* !nav */
+
+/* !header */
+
+/* footer */
+footer.flex-footer {
+    align-items: center;
+    border-top: #ff6600 3px solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: aqua;
-
-    width: 30em;
-    height: auto;
-
-    margin-left: auto;
-    margin-right: auto;
-
+    justify-content: center;
+    padding: 15px 0 30px;
 }
 
-.container-header-text{
-    display: flex;
-}
-
-#orange-text{
-    color:  rgb(255, 127, 23);
-}
-
-#container-footer-text{
+footer .text-container {
+    color: rgb(128, 126, 126);
+    font-size: 1rem;
     text-align: center;
 }
 
-#circle{
-    height: 0.7em;
-    width: 0.7em;
-    margin: 0.5em;
-
-    background-color: rgb(255, 127, 23);
-    border-radius: 1em;
+.arrow-container.right {
+    padding-left: 20px;
 }
+
+.arrow-container.left {
+    padding-right: 20px;
+}
+
+.arrow-container.right img {
+    transform: rotate(180deg);
+}
+
+/* !footer */
+
+
