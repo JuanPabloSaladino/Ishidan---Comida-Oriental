@@ -35,69 +35,68 @@ header nav {
     background-color: #ff6600;
 }
 
-    /* nav */
-    nav a {
-        color: white;
-        display: block;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 0.4em 1.5em;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+/* nav */
+nav a {
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.4em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
-    nav ul a.selected {
-        background: linear-gradient(to bottom, rgba(87,88,87,1) 0%, rgba(0,0,0,1) 100%);
-    }
+nav ul a.selected {
+    background: linear-gradient(to bottom, rgba(87, 88, 87, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
 
-    nav a:hover {
-        background-color: gray;
-    }
+nav a:hover {
+    background-color: gray;
+}
 
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-    }
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
 
 
-
-    /* !nav */
+/* !nav */
 
 /* !header */
 
 /*Main*/
 
-.container-main-top{
+.container-main-top {
     background-color: burlywood;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.container-main-top div{
+.container-main-top div {
     background-color: #fff;
     width: 25em;
     height: 13em;
 }
 
-.container-main-bottom{
+.container-main-bottom {
     height: 10em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.container-main-bottom div{
+.container-main-bottom div {
     text-align: left;
     background-color: rgb(55, 55, 55);
     color: rgb(238, 238, 238);
-    padding-left: 0.5em;  
+    padding-left: 0.5em;
     padding-top: 0.5em;
     height: 1.5em;
 }
 
-.container-main-bottom article{
+.container-main-bottom article {
     border: rgb(55, 55, 55) 0.05em solid;
     height: 8em;
     width: 11em;
