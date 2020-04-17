@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: Arial;
+    /*font-family: Arial;*/
 }
 
 h1 {
@@ -20,6 +20,7 @@ h3.underline {
     border-bottom: #cccccc 1px solid;
     padding-bottom: 5px;
 }
+
 
 .orange-txt {
     color: #ff7f17;
@@ -145,11 +146,43 @@ nav ul {
     margin: 1em;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: row;
     align-items: center;
 
+}
+
+.ingresar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    font-weight: bolder;
+    font-size: medium; 
+}
+
+.ingresar div {
+    background-color: rgb(241, 241, 241);   
+}
+
+.container-main-top .login-form {
+    padding-left: 3em;
+    text-align: left;
+    border: gray 1px solid;
+}
+
+.container-main-top .ingresar-submit {
+    width: 80%;
+}
+
+.login-button {
+    border-radius: 1em;
+    border: rgb(55, 55, 55) 1px solid;
+    color: rgb(55, 55, 55);
+    font-weight: 800;
+    width: 40%;
 }
 
 
@@ -187,4 +220,39 @@ footer .text-container {
 
 /* !footer */
 
+/* !Page Menu */
+
+    /* !main */
+    #main-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 50em;
+    }
+
+    #main-menu .container-accordion {
+        background-color: hotpink;
+        width: 40%;
+    }
+
+    #main-menu .container-main-right {
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    #main-menu .container-main-right .container-main-bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main-menu .container-main-right .container-main-bottom article {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* !main */
+
+/* !Page Menu */
 
