@@ -4,7 +4,7 @@
 }
 
 body{
-    /*font-family: Arial;*/
+    font-family: Arial;
 }
 
 h1 {
@@ -92,7 +92,7 @@ nav ul {
     height: 50px;
     width: 50px;
     padding: 0;
-    
+
 }
 
 .container-main-top div .question-mark span{
@@ -160,11 +160,11 @@ nav ul {
 
 label {
     font-weight: bolder;
-    font-size: medium; 
+    font-size: medium;
 }
 
 .ingresar div {
-    background-color: rgb(241, 241, 241);   
+    background-color: rgb(241, 241, 241);
 }
 
 .container-main-top .login-form {
@@ -227,13 +227,51 @@ footer .text-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        height: 50em;
+        height: 80vh;
+    }
+
+    #main-menu h3{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    #main-menu #accordion {
+        /* padding: 10px; */
     }
 
     #main-menu .container-accordion {
-        background-color: hotpink;
+        /* backg    round-color: hotpink; */
         width: 40%;
+        cursor: context-menu;  
     }
+
+    #main-menu .container-accordion h4{
+        background: #ffffff;
+        background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(41%, #ffffff), color-stop(58%, #dedede), color-stop(100%, #fffcff));
+        background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: -o-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: linear-gradient(to bottom, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffcff', GradientType=0 );
+
+        width: 100%;
+        border: #dedede solid 1px;
+        cursor: pointer;
+        padding: 5px 20px;
+    }
+
+    #main-menu .container-accordion .accordion-div{
+        padding: 5px 20px;
+        width: 100%;
+        border: #dedede solid 1px;
+    }
+
+    #main-menu .container-accordion .accordion-item :hover{
+        width: 100%;
+        background-color: #cccccc;
+    }
+
 
     #main-menu .container-main-right {
         background-color: green;
