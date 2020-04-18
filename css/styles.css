@@ -274,15 +274,57 @@ footer .text-container {
 
 
     #main-menu .container-main-right {
-        background-color: green;
+        /* background-color: green; */
         display: flex;
         flex-direction: column;
         width: 40%;
     }
 
+    #main-menu .pedido h4{
+        background: #ffffff;
+        background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(41%, #ffffff), color-stop(58%, #dedede), color-stop(100%, #fffcff));
+        background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: -o-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        background: linear-gradient(to bottom, #ffffff 0%, #ffffff 41%, #dedede 58%, #fffcff 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffcff', GradientType=0 );
+
+        width: 100%;
+        border: #dedede solid 1px;
+        cursor: pointer;
+        padding: 5px 20px;
+        height: 18px;
+    }
+
+    .pedido .pedido-container{
+        
+        background-color: #cccccc;
+        width: 100%;
+        border: #dedede solid 1px;
+        padding: 5px 20px;
+        height: 50px;
+    }
+    
+    .pedido .pedido-info{
+        
+        width: 100%;
+        border: #dedede solid 1px;
+        padding: 5px 20px;
+        height: 50px;
+    }
+
+    .pedido .pedido-info p{
+        color: #ff6600;
+    }
+
     #main-menu .container-main-right .container-main-bottom {
+        
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    #main-menu .sugerencias {
     }
 
     #main-menu .container-main-right .container-main-bottom article {
