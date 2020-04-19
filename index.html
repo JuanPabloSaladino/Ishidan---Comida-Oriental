@@ -13,22 +13,73 @@
             <h1>Ishidan</h1>
         </div>
         <div>
-            <p class="description">
-                <h2>Sushi <span class="orange-txt">•</span> Comida Oriental</h2>
-            </p>
-
+            <h2>Sushi <span class="orange-txt">•</span> Comida Oriental</h2>
         </div>
     </div>
     <nav>
         <ul>
-            <li><a href="#" class="selected">home</a></li>
-            <li><a href="#">menú</a></li>
+            <li><a href="#" class="selected">inicio</a></li>
+            <li><a href="menu.html">menú</a></li>
             <li><a href="#">sucursales</a></li>
         </ul>
     </nav>
 </header>
 <main>
-
+    <section class="container-main-top">
+        <div>
+            <h3 class="underline">Bienvenido</h3>
+            <div>
+                <p>Consulte nuestro <a class="orange-txt" href="#">menú</a> o ingrese su usuario y contraseña para hacer su pedido online</p>
+            </div>
+            <div class="info">
+                <div class="question-mark">
+                    <span>?</span>
+                </div>
+                <div class="text-info">
+                    <p>Si aún no se registró haga click <a class="orange-txt" href="#">aquí</a> para iniciar su pedido.</p>
+                </div>                
+            </div>
+        </div>
+        <div class="ingresar">
+            <h3>Ingresar</h3>
+            <h5>DELIVERY ONLINE</h5>
+            <div class="login-form">
+                <form action="#">
+                    <label for="telephone">Número de teléfono</label>
+                    <input class="ingresar-submit" type="tel" name="telephon" id="telephone">
+                    <label for="password">Contraseña</label>
+                    <input class="ingresar-submit" type="password" name="passwors" id="password">
+                    <input class="login-button" type="submit" value="INGRESAR">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="container-main-bottom">
+        <article class="product">
+            <img src="img/imagen4.jpg" alt="Maki">
+            <div>
+                <h5>Maki</h5>
+            </div>
+        </article>
+        <article class="product">
+            <img src="img/imagen3.jpg" alt="Hot Smothed Tempura Maki">
+            <div>
+                <h5>Hot Smothed Tempura Maki</h5>
+            </div>
+        </article>
+        <article class="product">
+            <img src="img/imagen2.jpg" alt="Geishas">
+            <div>
+                <h5>Geishas</h5>
+            </div>
+        </article>
+        <article class="product">
+            <img src="img/imagen1.jpg" alt="Niguiri de salmón">
+            <div>
+                <h5>Niguiri de salmón</h5>
+            </div>
+        </article>
+    </section>
 </main>
 <footer class="flex-footer">
     <div class="arrow-container left">
@@ -42,6 +93,5 @@
         <img src="./img/flecha.png">
     </div>
 </footer>
-
 </body>
 </html>
